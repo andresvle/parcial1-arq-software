@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="drawio-gen">
   <diagram id="tabla-hallazgos-1" name="Tabla Hallazgos">
-    <mxGraphModel dx="665" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1470" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1470" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,16 +25,16 @@
         <mxCell id="c7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#ffffff;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="H-01" vertex="1">
           <mxGeometry height="220" width="70" x="40" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="c8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="BibFarmacia/Servicios/ServicioProducto.cs /CargarDesdeArchivo" vertex="1">
+        <mxCell id="c8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="BibFarmacia/Servicios/ServicioProducto.cs&amp;nbsp;" vertex="1">
           <mxGeometry height="220" width="300" x="110" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="c9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="Lee productos.txt con formato fijo ; y construye siempre 🔧 MedicamentoCapsula con TipoRelleno.Gel y un&amp;nbsp; Laboratorio hard-coded" vertex="1">
+        <mxCell id="c9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="La carga de productos depende de un formato fijo y crea algunos datos con valores predeterminados, lo que dificulta manejar otros tipos de productos o cambios en la información de entrada. ln75" vertex="1">
           <mxGeometry height="220" width="340" x="410" y="100" as="geometry" />
         </mxCell>
         <mxCell id="c10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="Open/Closed, SRP, flexibilidad" vertex="1">
           <mxGeometry height="220" width="210" x="750" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="c11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="El sistema no puede cargar productos distintos ni adaptarse a cambios de formato; riesgo de datos incorrectos" vertex="1">
+        <mxCell id="c11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="El sistema pierde flexibilidad para adaptarse a nuevos productos o formatos de carga, lo que puede generar errores en la información y aumentar el esfuerzo de mantenimiento." vertex="1">
           <mxGeometry height="220" width="260" x="960" y="100" as="geometry" />
         </mxCell>
         <mxCell id="c12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ff8787;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Media-Propio&lt;/div&gt;" vertex="1">
@@ -46,13 +46,13 @@
         <mxCell id="c14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="BibFarmacia/Servicios/ServicioUsuario.cs /&lt;br&gt;Login +&amp;nbsp; Cargar" vertex="1">
           <mxGeometry height="150" width="300" x="110" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="c15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Usuarios almacenan contraseñas en texto claro y se comparan directamente" vertex="1">
+        <mxCell id="c15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Las contraseñas de los usuarios se almacenan y validan directamente, sin aplicar mecanismos de protección como el cifrado o el uso de hashes.&lt;div&gt;ln 27 y 37&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="340" x="410" y="320" as="geometry" />
         </mxCell>
         <mxCell id="c16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Seguridad de autenticación, confidencialidad" vertex="1">
           <mxGeometry height="150" width="210" x="750" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="c17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Alto riesgo de acceso no autorizado si el archivo&amp;nbsp; usuarios.txt es expuesto" vertex="1">
+        <mxCell id="c17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Si la información de los usuarios se ve comprometida, existe un alto riesgo de acceso no autorizado a las cuentas, afectando la seguridad y la confianza en el sistema." vertex="1">
           <mxGeometry height="150" width="260" x="960" y="320" as="geometry" />
         </mxCell>
         <mxCell id="c18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ff6b6b;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Alta — Propio" vertex="1">
@@ -64,13 +64,13 @@
         <mxCell id="c20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="BibFarmacia/Servicios/ServicioProducto.cs +&lt;br&gt;ServicioCliente.cs +&amp;nbsp; ServicioMovimiento.cs" vertex="1">
           <mxGeometry height="190" width="300" x="110" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="c21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="Las clases crean internamente&amp;nbsp; List&amp;lt;T&amp;gt;, EventoX y usan&amp;nbsp; DateTime.Now directamente" vertex="1">
+        <mxCell id="c21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;929&quot; data-end=&quot;940&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;931&quot; data-end=&quot;939&quot;&gt;&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;940&quot; data-end=&quot;1110&quot; data-col-size=&quot;xl&quot;&gt;Los servicios crean directamente sus dependencias y utilizan recursos del sistema sin una capa de abstracción, lo que incrementa el acoplamiento entre los componentes.&lt;br&gt;ServicioProducto.cs ln 19 y ln 59&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="190" width="340" x="410" y="470" as="geometry" />
         </mxCell>
         <mxCell id="c22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="Dependency Inversion, testabilidad, extensibilidad" vertex="1">
           <mxGeometry height="190" width="210" x="750" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="c23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="Dificulta pruebas unitarias y la adopción de IoC/DI; cada servicio está acoplado a detalles concretos" vertex="1">
+        <mxCell id="c23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="Cualquier cambio en la forma de almacenar datos, gestionar eventos o manejar fechas requerirá modificar varias clases, aumentando el tiempo de desarrollo y el costo de mantenimiento del sistema." vertex="1">
           <mxGeometry height="190" width="260" x="960" y="470" as="geometry" />
         </mxCell>
         <mxCell id="c24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ff8787;fillColor=#1c1d27;strokeColor=#33354a;spacing=8;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Media-propio&lt;/div&gt;" vertex="1">
@@ -93,6 +93,42 @@
         </mxCell>
         <mxCell id="c30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffa94d;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Baja/Media — Propio" vertex="1">
           <mxGeometry height="160" width="190" x="1220" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="BibFarmacia/Servicios/ServicioProducto.cs" vertex="1">
+          <mxGeometry height="160" width="300" x="110" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#ffffff;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="H-05" vertex="1">
+          <mxGeometry height="160" width="70" x="40" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Servicio producto se encarga de:&lt;br&gt;1. Agregar productos ln27&lt;div&gt;2. Consultar productos ln42&lt;/div&gt;&lt;div&gt;3. Verificar stock ln47&lt;/div&gt;&lt;div&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(224, 224, 224), rgb(45, 45, 45));&quot;&gt;Verificar vencimiento ln59&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(224, 224, 224), rgb(45, 45, 45));&quot;&gt;5. Leer archivos&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(224, 224, 224), rgb(45, 45, 45));&quot;&gt;ln75&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(224, 224, 224), rgb(45, 45, 45));&quot;&gt;6. Disparar eventos ejemplo ln 69&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="340" x="410" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Se compromete single responsibility a más no poder. Eso sin mencionar que también se está violando OCP que ya lo mencionamos en H-01. Hace que el código sea dificil de mantener, probar y modificar." vertex="1">
+          <mxGeometry height="160" width="210" x="750" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Mayor tiempo y costo para desarrollar nuevas funcionalidades o corregir errores, lo que retrasa la entrega de mejoras al negocio." vertex="1">
+          <mxGeometry height="160" width="260" x="960" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffa94d;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(180, 77, 77);&quot;&gt;Media-propio&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="1220" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="BibFarmacia/Factories/ProductoFactory.cs" vertex="1">
+          <mxGeometry height="160" width="300" x="110" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#ffffff;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="H-06" vertex="1">
+          <mxGeometry height="160" width="70" x="40" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Valores quemados. Más de un par&amp;nbsp;" vertex="1">
+          <mxGeometry height="160" width="340" x="410" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Compromete OCP, vuelve el software poco flexible para futuros cambios de valores" vertex="1">
+          <mxGeometry height="160" width="210" x="750" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=12;fontColor=#e0e0e0;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Hace el software dificil y tedioso de mantener a largo plazo&amp;nbsp;" vertex="1">
+          <mxGeometry height="160" width="260" x="960" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TDZT6wjji89uUiKdac-D-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffa94d;fillColor=#20222f;strokeColor=#33354a;spacing=8;" value="Baja/Media — Propio" vertex="1">
+          <mxGeometry height="160" width="190" x="1220" y="980" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
